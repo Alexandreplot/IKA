@@ -1,0 +1,32 @@
+@startuml
+'déclaration des classes
+
+class CHANSON{
+
+}
+
+class PARTITION{
+
+}
+
+class AUTEUR{
+
+}
+
+class COMPOSITEUR{
+
+}
+
+class UTILISATEUR{
+
+}
+
+class CARNET{
+
+}
+
+class ETIQUETTE{
+
+}
+
+@enduml
