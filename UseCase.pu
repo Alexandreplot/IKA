@@ -1,0 +1,13 @@
+@startuml
+'declaration of the actors
+actor user
+actor contributor
+
+'declaration of the use cases
+rectangle IKA{
+(consult a song)
+(research a song)
+(edit)
+
+}
+@enduml
