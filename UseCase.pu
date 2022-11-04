@@ -1,13 +1,24 @@
 @startuml
-'declaration of the actors
-actor user
-actor contributor
 
-'declaration of the use cases
-rectangle IKA{
-(consult a song)
-(research a song)
-(edit)
+  'order of the actor in the diagram
+  left to right direction
 
-}
+  'declaration of the actors
+  actor user
+  actor contributor
+
+  'declaration of the use cases
+  rectangle IKA{
+      (consult a page) as consult
+      (search a page) as search
+      (edit)
+      (search by )
+    }
+
+  'links
+  user <- contributor
+
+  user -- consult
+  user -- search
+  contributor -- edit
 @enduml
